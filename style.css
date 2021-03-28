@@ -1,0 +1,33 @@
+a{
+    font-size: 22px;
+    color: rgb(216, 21, 21);
+    
+}
+
+p{
+    font-size: 20px;
+    color: rgb(186, 85, 233);
+    text-align: center;
+}
+
+h1{
+    color: rgb(172, 49, 255);
+    text-align: center;
+}
+ body{
+     background: url(https://i.artfile.ru/3840x2160_1351689_[www.ArtFile.ru].jpg);
+ }
+    
+     
+ }
+
+ h2{
+     color: rgb(19, 0, 126);
+ }
+
+ img{
+     max-width: 100%;
+     height: auto;
+ }
+
+ 
