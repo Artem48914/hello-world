@@ -33,3 +33,8 @@ h2{
 body{
     font-family: 'New Tegomin', serif;
 }
+
+img{
+border-radius: 10px;
+max-width: 70%;
+}
