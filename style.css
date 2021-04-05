@@ -1,33 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 a{
     font-size: 22px;
     color: rgb(216, 21, 21);
+    font-family: 'New Tegomin', serif;
     
 }
 
 p{
     font-size: 20px;
-    color: rgb(186, 85, 233);
+    color: rgb(87, 0, 158);
     text-align: center;
+    font-family: 'New Tegomin', serif;
 }
 
 h1{
-    color: rgb(172, 49, 255);
+    color: rgb(34, 0, 155);
     text-align: center;
+    font-family: 'New Tegomin', serif;
 }
  body{
-     background: url(https://i.artfile.ru/3840x2160_1351689_[www.ArtFile.ru].jpg);
+     background: url(https://portagame.ru/katalog/game/ps4-game/ps4-just-cause-4_4.jpg);
+     
+     
  }
     
      
- }
+ 
 
  h2{
      color: rgb(19, 0, 126);
+    text-align: center;
+    font-family: 'New Tegomin', serif;
  }
 
  img{
      max-width: 100%;
      height: auto;
  }
+
+ iframe{
+     text-align: center;
+     flex-wrap: wrap;
+     flex: auto;
+     border-radius: 10%;
+ }
+ 
+ .wrapper{
+     max-width: 1200px;
+     margin: auto;
+ }
+
+ header{
+     background-color: rgb(184, 184, 184);
+     text-align: left;
+    
+ }
+
+ a{
+     color: #00039e;
+     text-align: left;
+ }
+
+ footer{
+     font-size: 30px;
+ }
+
 
  
