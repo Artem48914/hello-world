@@ -46,3 +46,16 @@ body{
     font-family: 'New Tegomin', serif;
 }
 
+a{
+    font-size: 30px;
+    color: rgb(0, 102, 190);
+}
+
+
+.img-item{
+    text-align: center;
+}
+
+.text{
+    padding: 0 10px;
+}

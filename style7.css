@@ -13,7 +13,7 @@ h1{
 }
 
 body{
-    background: url(https://cdn.wallpapersafari.com/71/36/vnLF73.jpg)
+    background: url(https://wallpaperplay.com/walls/full/4/1/2/132804.jpg)
 }
 
 h2{
@@ -37,4 +37,8 @@ body{
 img{
     border-radius: 10px;
     max-width: 70%;
+}
+
+.img-item{
+    text-align: center;
 }

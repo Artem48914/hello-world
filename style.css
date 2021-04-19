@@ -5,20 +5,21 @@
 
 a{
     font-size: 22px;
-    color: rgb(38, 0, 173);
-    font-family: 'New Tegomin', serif;
-    
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 p{
     font-size: 20px;
-    color: rgb(38, 0, 128);
+    color: white;
     text-align: center;
     font-family: 'New Tegomin', serif;
+ 
 }
 
 h1{
-    color: rgb(70, 0, 150);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'New Tegomin', serif;
 }
@@ -32,7 +33,7 @@ h1{
  
 
  h2{
-     color: rgb(89, 0, 161);
+     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'New Tegomin', serif;
  }
@@ -40,6 +41,7 @@ h1{
  img{
      max-width: 100%;
      height: auto;
+    
  }
 
  iframe{
@@ -55,13 +57,15 @@ h1{
  }
 
  header{
-     background-color: rgb(184, 184, 184);
-     text-align: left;
+   background-color:rgba(red, green, blue, .1)
+     text-align: center;
+    display: center;
+    font-size: 50px;
     
  }
 
  a{
-     color: #270083;
+     color: #ffffff;
      text-align: left;
  }
 
@@ -70,4 +74,18 @@ h1{
  }
 
 
+ li{
+     color: aliceblue;
+ }
  
+.logo-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50 × 28.16;
+}
+
+ h3{
+     text-align: center;
+     color: aliceblue;
+ }
