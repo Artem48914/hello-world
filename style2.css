@@ -1,18 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
 p{
     font-size: 25px;
-    color: blanchedalmond;
-    background: rgb(49, 255, 128);
+    color: rgb(65, 7, 119);
+    background: rgb(231, 145, 47);
     border-radius: 10px;ы
-    
+    font-weight:bold;
     
 }
 
 h1{
-    color: blanchedalmond;
+    color: rgb(65, 7, 119);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(231, 145, 47);
     border-radius: 10px;
     font-family: 'New Tegomin', serif;
+    font-weight:bold;
+    margin: 20px;
 }
 
 body{
@@ -21,34 +33,48 @@ body{
 }
 
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(65, 7, 119);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(231, 145, 47);
     border-radius: 10px;
     font-family: 'New Tegomin', serif;
+    font-weight:bold;
 }
 
 img{
     border-radius: 10px;
-    max-width: 70%;
+    max-width: 76%;
     height: auto;
-font-size: 5px;
-     
+font-size: 9px;
+filter: brightness(50%);
+transition: .5s;
+}
+
+img:hover{
+transition: .5s;
+filter: brightness(100%);
+
 }
 
 .wrapper{
     max-width: 1200px;
     margin: auto;
-    background: rgb(49, 255, 128);
+    background: rgb(231, 145, 47);
     border-radius: 10px;
 }
 body{
     font-family: 'New Tegomin', serif;
 }
 
-a{
+a{  
+    text-decoration: none;
     font-size: 30px;
-    color: rgb(0, 102, 190);
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    font-weight: bold;
+    border-radius: 4px;
+    /* padding: 5px; */
 }
 
 
@@ -58,4 +84,8 @@ a{
 
 .text{
     padding: 0 10px;
+}
+
+.text p{
+    text-align: center;
 }

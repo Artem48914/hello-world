@@ -1,15 +1,17 @@
 p{
     font-size: 30px;
-    color: blanchedalmond;
-    background: rgb(49, 255, 128);
+    color: rgb(240, 225, 15);
+    background: rgb(143, 42, 11);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 h1{
-    color: blanchedalmond;
+    color: rgb(240, 225, 15);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(143, 42, 11);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 body{
@@ -17,16 +19,17 @@ body{
 }
 
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(240, 225, 15);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(143, 42, 11);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 .wrapper{
     max-width: 1200px;
     margin: auto;
-    background: rgb(49, 255, 128);
+    background: rgb(143, 42, 11);
     border-radius: 10px;
 }
 
@@ -36,9 +39,35 @@ body{
 
 img{
     border-radius: 10px;
-    max-width: 70%;
+    max-width: 76%;
+    filter: brightness(50%);
+    transition: .5s;
 }
+
+img:hover{
+    transition: .5s;
+    filter: brightness(100%);
+}
+
 
 .img-item{
     text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+    
+}
+
+.text{
+    padding: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    font-weight: bold;
+    border-radius: 4px;
+    /* padding: 5px; */
 }

@@ -1,91 +1,131 @@
-*{
+* {
     padding: 0;
-    margin: 0;
+    margin: 1pxs;
 }
 
-a{
+a {
+    margin: 20;
+    nav-up: auto;
     font-size: 22px;
     color: rgb(255, 255, 255);
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    text-decoration: none;
+
 }
 
-p{
+p {
     font-size: 20px;
-    color: white;
-    text-align: center;
-    font-family: 'New Tegomin', serif;
- 
-}
-
-h1{
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'New Tegomin', serif;
+    font-weight: bold;
 }
- body{
-     background: url(https://wallpapercave.com/wp/wp6901263.png);
-     
-     
- }
-    
-     
- 
 
- h2{
-     color: rgb(255, 255, 255);
+h1 {
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'New Tegomin', serif;
- }
+    font-weight: bold;
+}
 
- img{
-     max-width: 100%;
-     height: auto;
-    
- }
+body {
+    background: url(https://i.pinimg.com/originals/45/76/59/4576599b62dce603103bfc05ade5e6dc.jpg);
 
- iframe{
-     text-align: center;
-     flex-wrap: wrap;
-     flex: auto;
-     border-radius: 10%;
- }
- 
- .wrapper{
-     max-width: 1200px;
-     margin: auto;
- }
 
- header{
-   background-color:rgba(red, green, blue, .1)
-     text-align: center;
+}
+
+
+
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+iframe {
+    text-align: center;
+    flex-wrap: wrap;
+    flex: auto;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(red, green, blue, .1) text-align: center;
     display: center;
     font-size: 50px;
-    
- }
+    font-weight: bold;
+}
 
- a{
-     color: #ffffff;
-     text-align: left;
- }
+a {
+    color: #ffffff;
+    text-align: left;
+}
 
- footer{
-     font-size: 30px;
- }
+footer {
+    font-size: 30px;
+}
 
 
- li{
-     color: aliceblue;
- }
- 
-.logo-type{
+li {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+.logo-type {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50 × 28.16;
 }
 
- h3{
-     text-align: center;
-     color: aliceblue;
- }
+h3 {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.scale {
+    transition: .5s;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+a:hover {
+    color: rgb(184, 80, 80);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-bio{
+    margin: 10px;
+    transition: .5s;
+}
+
+.item-bio:hover{
+    transform: scale(1.2);
+}

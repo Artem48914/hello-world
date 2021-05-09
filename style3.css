@@ -1,38 +1,51 @@
+
+
+
 p{
     font-size: 30px;
-    color: blanchedalmond;
-    background: rgb(49, 255, 128);
+    color: rgb(65, 7, 119);
+    background: rgb(230, 255, 9);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 h1{
-    color: blanchedalmond;
+    color: rgb(65, 7, 119);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(230, 255, 9);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 body{
     background: url(https://wallpaperplay.com/walls/full/4/1/2/132804.jpg) 
 }
-
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(65, 7, 119);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(230, 255, 9);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 img{
     border-radius: 10px;
-    max-width: 70%;
+    max-width: 76%;
     height: auto;
+    filter: brightness(50%);
+    transition: .5s;
+}
+
+img:hover{
+    transition: .5s;
+    filter: brightness(100%);
+
 }
 
 .wrapper{
     max-width: 1200px;
     margin: auto;
-    background: rgb(49, 255, 128);
+    background: rgb(230, 255, 9);
     border-radius: 10px;
 }
 
@@ -43,4 +56,19 @@ body{
 
 .img-item{
     text-align: center;
+}
+
+.text{
+    padding: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    font-weight: bold;
+    border-radius: 4px;
+    /* padding: 5px; */
 }

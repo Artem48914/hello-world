@@ -1,15 +1,17 @@
 p{
     font-size: 30px;
-    color: blanchedalmond;
-    background: rgb(49, 255, 128);
+    color: rgb(65, 7, 119);
+    background: rgb(162, 173, 10);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 h1{
-    color: blanchedalmond;
+    color: rgb(65, 7, 119);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(162, 173, 10);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 body{
@@ -17,27 +19,52 @@ body{
 }
 
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(65, 7, 119);
     text-align: center;
-    background: rgb(49, 255, 128);
+    background: rgb(162, 173, 10);
     border-radius: 10px;
+    font-weight:bold;
 }
 
 .wrapper{
     max-width: 1200px;
     margin: auto;
-    background: rgb(49, 255, 128);
+    background: rgb(162, 173, 10);
     border-radius: 10px;
 }
 
 img{
     border-radius: 10px;
-    max-width: 70%;
+    max-width: 76%;
+    filter: brightness(50%);
+    transition: .5s;
 }
+
+img:hover{
+    transition: .5s;
+    filter: brightness(100%);
+
+}
+
 body{
     font-family: 'New Tegomin', serif;
 }
 
 .img-item{
     text-align: center;
+}
+
+.text{
+    padding: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    font-weight: bold;
+    border-radius: 4px;
+    /* padding: 5px; */
 }
