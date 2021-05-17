@@ -1,17 +1,15 @@
 * {
     padding: 0;
-    margin: 1pxs;
+    margin: 0.5px;
 }
 
 a {
     margin: 20;
-    nav-up: auto;
     font-size: 22px;
     color: rgb(255, 255, 255);
     font-family: 'Oswald', sans-serif;
     text-align: center;
     text-decoration: none;
-
 }
 
 p {
@@ -30,7 +28,7 @@ h1 {
 }
 
 body {
-    background: url(https://i.pinimg.com/originals/45/76/59/4576599b62dce603103bfc05ade5e6dc.jpg);
+    background: url(https://kartinkinaden.ru/uploads/posts/2021-01/1610943522_34-p-temnii-igrovoi-fon-54.jpg);
 
 
 }
@@ -65,7 +63,7 @@ iframe {
 }
 
 header {
-    background-color: rgba(red, green, blue, .1) text-align: center;
+    background-color: rgba(red, green, blue, .1) text-align center;
     display: center;
     font-size: 50px;
     font-weight: bold;
@@ -76,17 +74,14 @@ a {
     text-align: left;
 }
 
-footer {
-    font-size: 30px;
-}
+
 
 
 li {
     color: aliceblue;
     text-align: center;
+
 }
-
-
 
 .logo-type {
     display: flex;
@@ -100,32 +95,30 @@ h3 {
     color: aliceblue;
 }
 
-
-
-.scale {
-    transition: .5s;
+.scale{
+    transition: 1s;
 }
 
 .scale:hover {
     transform: scale(1.2);
-}
-
-a:hover {
-    color: rgb(184, 80, 80);
-}
-
-
-.footer{
-    display: flex;
+    transition: 0.5ss;
+  
     justify-content: center;
-    align-items: center;
+   
 }
 
-.item-bio{
-    margin: 10px;
-    transition: .5s;
+.scale a:hover{
+    color: rgb(113, 113, 201);
+    transition: 0.5s;
 }
 
-.item-bio:hover{
-    transform: scale(1.2);
+.item{
+   
+    transition: 1s;
 }
+
+.item:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
